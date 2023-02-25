@@ -1,0 +1,45 @@
+
+
+
+.content{
+  background-size:cover;
+  height:100px;
+  width:100px;
+  margin:30px 10px;
+ position:absolute;
+ left:70px;
+  top:70px;
+  display:none;
+}
+
+#earth
+{
+  background-image:url(https://hd.unsplash.com/photo-1465441494912-68f5747c3fe0);
+
+}
+
+#wind
+{
+  background-image:url(https://hd.unsplash.com/photo-1465415513839-55341da57a98);
+}
+
+#fire
+{
+  background-image:url(https://hd.unsplash.com/photo-1468245856972-a0333f3f8293);
+}
+
+#searchInfo{
+  font-size:16px;
+  width:50%;
+}
+
+@media only screen and (max-width:615px){
+  #searchInfo{
+    text-overflow:ellipsis;
+  }
+}
+
+#my_form{
+  width:calc(100vw - 200px);
+  margin:0 100px;
+}
